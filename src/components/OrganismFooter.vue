@@ -14,20 +14,9 @@ import MoleculeLinks from "@/components/MoleculeLinks";
 
 export default {
   name: "OrganismFooter",
+  props: ["columnOneLinks", "columnTwoLinks"],
   components: {
     MoleculeLinks
-  },
-  data: () => {
-    return {
-      columnOneLinks: [
-        { name: "Footer column 1", url: "#" },
-        { name: "Footer column 1", url: "#" }
-      ],
-      columnTwoLinks: [
-        { name: "Footer column 2", url: "#" },
-        { name: "Footer column 2", url: "#" }
-      ]
-    };
   }
 };
 </script>

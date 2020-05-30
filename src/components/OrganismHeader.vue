@@ -17,15 +17,11 @@ import MoleculeLinks from "@/components/MoleculeLinks";
 
 export default {
   name: "OrganismHeader",
+  props: ["links"],
   components: {
     AtomLogo,
     AtomButton,
     MoleculeLinks
-  },
-  data: () => {
-    return {
-      links: [{ name: "Header link 1", url: "#" }]
-    };
   }
 };
 </script>

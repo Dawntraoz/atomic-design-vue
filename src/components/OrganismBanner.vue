@@ -21,11 +21,6 @@ export default {
     AtomTitle,
     AtomText,
     AtomButton
-  },
-  data: () => {
-    return {
-      links: [{ name: "Header link 1", url: "#" }]
-    };
   }
 };
 </script>

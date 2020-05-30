@@ -11,27 +11,9 @@ import MoleculeCard from "@/components/MoleculeCard";
 
 export default {
   name: "OrganismGrid",
+  props: ["cards"],
   components: {
     MoleculeCard
-  },
-  data: () => {
-    return {
-      cards: [
-        {
-          title: "Card 1",
-          text: "Sed gravida libero sem, sed ornare arcu venenatis at."
-        },
-        {
-          title: "Card 2",
-          text:
-            "Etiam in arcu lectus. Nulla facilisi. Nunc viverra vehicula nunc eu tristique."
-        },
-        {
-          title: "Card 3",
-          text: "Sed gravida libero sem, etiam in arcu lectus."
-        }
-      ]
-    };
   }
 };
 </script>
